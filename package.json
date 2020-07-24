@@ -2,6 +2,7 @@
   "name": "magici",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gbdu.github.io/magici/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.1.0",
     "@testing-library/jest-dom": "^4.2.4",
