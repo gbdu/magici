@@ -3,8 +3,8 @@ node_js:
   - 14.5.0
 cache: yarn
 
-# install:
-#   - npm install
+install:
+  - yarn install
 
 script:
 #   - yarn test
@@ -15,6 +15,6 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
-  local_dir: build
+  local_dir: "build"
   on:
     branch: master
