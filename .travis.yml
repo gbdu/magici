@@ -7,13 +7,14 @@ cache: yarn
 #   - npm install
 
 script:
-  - yarn test
+#   - yarn test
   - yarn run build
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  keep_history: true
   local_dir: build
   on:
     branch: master
